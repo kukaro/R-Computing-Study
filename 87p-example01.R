@@ -12,7 +12,7 @@ print(vec[c(2, 3, 6)])
 vec2 <- vec[c(-2, -3)]
 print(vec2)
 #3
-vec <- replace(vec, 3, 5)
+vec <- replace(vec, 3, 5)#vec[3]<-5 와 동일함
 print(vec)
 #4
 vec2 <- append(vec2, 30, after = 5)
