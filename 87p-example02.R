@@ -11,7 +11,7 @@ print(sx[4, 7])
 print(sx[c(7, 17, 28),])
 print(sx[, c(2, 5, 7)])
 #3
-print(sx[c(-5, -20), 3:5])
+print(sx[seq(from = -5, to = -50, by = -1), 3:5])
 #4
 print('******')
 print(sx)
