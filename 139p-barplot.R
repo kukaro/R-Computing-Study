@@ -9,7 +9,7 @@ tab <- with(Cars93, table(Type))
 # (tab <- with(Cars93, table(Type))) <- 괄호로 감싸주면 입력구문에서 출력까지 같이 해준다고 함
 # tab <-table(Cars93$Type) #<- 8번행은 이 행과 같다
 
-heqd <- c('Compact', 'Large', 'Midsize', 'Small', 'Sporty', 'Van')
+head <- c('Compact', 'Large', 'Midsize', 'Small', 'Sporty', 'Van')
 
 barplot(tab,
         main = "Type of Car",
