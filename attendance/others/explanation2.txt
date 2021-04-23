@@ -1,0 +1,12 @@
+두 모집단이 같은지 확인하려면 t.test를 사용하면된다.
+
+결과값:
+t = -0.28535, df = 40.554, p-value = 0.7768
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -7.406575  5.573242
+sample estimates:
+mean of x mean of y
+ 67.73333  68.65000
+
+p-value(유의확률이 0.05를 넘기므로 기각한다.)

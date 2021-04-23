@@ -1,0 +1,12 @@
+t.test 원샘플 검정을 실시한 결과
+
+data:  plate
+t = 3.6211, df = 9, p-value = 0.002781
+alternative hypothesis: true mean is greater than 225
+95 percent confidence interval:
+ 226.2838      Inf
+sample estimates:
+mean of x
+    227.6
+
+유의수준 0.002이므로 0.05(5%)이하이므로 채택한다.
