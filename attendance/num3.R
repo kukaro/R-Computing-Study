@@ -5,7 +5,10 @@
 
 getmode <- function(v) {
   uniqv <- unique(v)
+  #unique는 현재 벡터에서 유니크 값만 남긴다.
   uniqv[which.max(tabulate(match(v, uniqv)))]
+  #tabulate(match(v, uniqv)) -> uniqv의 배열을 모체로 삼아서 v의 원소가 uniqv에 몇번 등장하는지 반환
+  #which.max() -> 그중에서 최대값의 "인덱스"를 반환
 }
 
 man <- c(49, 86, 40, 45, 48, 93, 97, 58, 58, 98,
