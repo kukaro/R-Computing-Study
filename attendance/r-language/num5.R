@@ -4,22 +4,22 @@
 # Created on: 2021-04-25
 
 #1
-for (i in seq(5, 1)) {
-    print(rep(i * 2, i))
+for (i in 1:5) {
+    print(rep(12 - i * 2, 6 - i))
 }
 
 #2
-j <- 5
-while (j >= 1) {
-    print(rep(j * 2, j))
-    j <- j - 1
+j <- 1
+while (j <= 5) {
+    print(rep(12 - j * 2, 6 - j))
+    j <- j + 1
 }
 
 #3
-k <- 5
+k <- 1
 repeat {
-    print(rep(k * 2, k))
-    k <- k - 1
+    print(rep(12 - k * 2, 6 - k))
+    k <- k + 1
     if (k == 0) {
         break
     }
