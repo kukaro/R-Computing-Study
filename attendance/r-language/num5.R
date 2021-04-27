@@ -20,7 +20,7 @@ k <- 1
 repeat {
     print(rep(12 - k * 2, 6 - k))
     k <- k + 1
-    if (k == 0) {
+    if (k > 5) {
         break
     }
 }
