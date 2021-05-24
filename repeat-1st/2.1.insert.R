@@ -24,3 +24,5 @@ sink('printa.txt')
 summary(iris)
 sink()
 #iris를 txt로 저장
+
+write.csv(data.frame(dat),'dat_exam1.csv')
